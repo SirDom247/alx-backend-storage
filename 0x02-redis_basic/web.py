@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+"""
+Caching request module
+"""
+
 import requests
 import redis
 import functools
