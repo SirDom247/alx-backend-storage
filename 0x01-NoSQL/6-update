@@ -1,8 +1,8 @@
 //Update a collection 'school' in the database 'my_db'
 
-db.school.updateMany(
+db.school.update(
    { name: "Holberton school" },
    { $set: { address: "972 Mission street" } },
-   { multi: true },
+   { multi: true }
 );
 
